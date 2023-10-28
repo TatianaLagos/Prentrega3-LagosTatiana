@@ -1,0 +1,5 @@
+# archivos que quier que git ignore
+
+package.json
+package-lock
+node_modules
