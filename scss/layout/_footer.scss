@@ -1,0 +1,63 @@
+footer {
+    background-color: black;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+  
+    .pie {
+      background-color: black;
+    }
+  
+    .fa-regular {
+      text-emphasis: none;
+
+      padding: 14px;
+      border-radius: 60px;
+      color: black;
+    }
+  
+    .phone {
+      color: rgb(87, 87, 87);
+    }
+  
+    .mail {
+      color: rgb(87, 87, 87);
+    }
+  
+    .fa-solid {
+      text-emphasis: none;
+      background-color: white;
+      padding: 14px;
+      border-radius: 60px;
+      color: black;
+    }
+  
+    samp {
+      font-size: 35px;
+    }
+  
+    .redes {
+      &.fb {
+        display: flex;
+        justify-content: flex-end;
+        text-emphasis: none;
+        background-color: white;
+        padding: 12px;
+        border-radius: 60px;
+        color: black;
+        text-decoration: none;
+        margin: 30px;
+      }
+      &.inst {
+        display: flex;
+        text-emphasis: none;
+        background-color: white;
+        padding: 12px;
+        border-radius: 60px;
+        color: black;
+        text-decoration: none;
+      }
+    }
+  }

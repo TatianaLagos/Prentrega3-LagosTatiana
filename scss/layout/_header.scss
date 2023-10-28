@@ -1,0 +1,18 @@
+header {
+    background-color: black;
+  
+    nav {
+      display: flex;
+      text-align: start;
+  
+      div {
+        ul {
+          li {
+            a {
+              color: aliceblue !important;
+            }
+          }
+        }
+      }
+    }
+  }

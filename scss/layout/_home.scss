@@ -1,0 +1,45 @@
+.section-home {
+    background-image: url("../assets/fondo-home.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 650px;
+  }
+  
+  .home {
+    color: aliceblue;
+    padding: 30px;
+    padding-top: 250px;
+  
+    h1 {
+      color: black;
+      width: 250px;
+  
+      > span {
+        background-color: white;
+      }
+    }
+  
+    p {
+      text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    }
+  
+    a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 20px;
+      border-radius: 10px;
+      font-size: 20px;
+    }
+    
+    .btn-primary {
+      background-color: #bb5553;
+      border-color: #bb5553;
+      &:hover {
+        background-color: #973c3a;
+        border-color: #973c3a;
+      }
+    }
+  }

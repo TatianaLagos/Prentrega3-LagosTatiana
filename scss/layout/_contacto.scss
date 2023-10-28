@@ -1,0 +1,43 @@
+body {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .navbar-light {
+    & .navbar-brand,
+    & .navbar-nav .nav-link {
+      color: #fff;
+    }
+  }
+  
+  .container {
+    padding-top: 50px;
+  }
+  
+  /* Style the booking form */
+  .booking-form {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .form-group {
+    label {
+      color: #fff;
+    }
+  }
+  
+  .form-control {
+    background-color: #222;
+    color: #fff;
+    border-color: #444;
+  }
+  
+  .btn-primary {
+    background-color: #bb5553;
+    border-color: #bb5553;
+    &:hover {
+      background-color: #973c3a;
+      border-color: #973c3a;
+    }
+  }
