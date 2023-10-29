@@ -11,56 +11,85 @@ header nav div ul li a {
 
 footer {
   background-color: black;
-  background-size: cover;
+  color: white;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  text-align: center;
+}
+footer .container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .row {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
+}
+footer .row .col {
+  flex: 1;
+  padding: 10px;
+}
+footer .row .col:first-child {
+  order: 2;
+}
+footer .row .col:last-child {
+  order: 1;
+}
+footer .row .col .phone,
+footer .row .col .mail {
   display: flex;
+  align-items: center;
+  font-weight: bold;
 }
-footer .pie {
-  background-color: black;
+footer .row .col .phone i,
+footer .row .col .mail i {
+  margin-right: 10px;
+  font-size: 1.5rem;
 }
-footer .fa-regular {
-  text-emphasis: none;
-  padding: 14px;
-  border-radius: 60px;
-  color: black;
+footer .row .col .phone p,
+footer .row .col .mail p {
+  margin: 0;
+  font-size: 1rem;
 }
-footer .phone {
-  color: rgb(87, 87, 87);
+footer .redes {
+  display: flex;
+  justify-content: center;
 }
-footer .mail {
-  color: rgb(87, 87, 87);
-}
-footer .fa-solid {
+footer .redes a {
   text-emphasis: none;
   background-color: white;
-  padding: 14px;
-  border-radius: 60px;
-  color: black;
-}
-footer samp {
-  font-size: 35px;
-}
-footer .redes.fb {
-  display: flex;
-  justify-content: flex-end;
-  text-emphasis: none;
-  background-color: white;
-  padding: 12px;
+  padding: 8px;
   border-radius: 60px;
   color: black;
   text-decoration: none;
-  margin: 30px;
-}
-footer .redes.inst {
   display: flex;
-  text-emphasis: none;
-  background-color: white;
-  padding: 12px;
-  border-radius: 60px;
-  color: black;
-  text-decoration: none;
+  margin: 5px;
+}
+footer .redes a:hover {
+  background-color: rgba(255, 255, 255, 0.716);
+}
+@media (max-width: 768px) {
+  footer .redes .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .redes .row .col {
+    width: 100%;
+  }
+  footer .redes .row .col:first-child, footer .redes .row .col:last-child {
+    order: 0;
+  }
+  footer .redes .row .col .phone,
+  footer .redes .row .col .mail {
+    margin-top: 10px;
+  }
+  footer .redes .redes {
+    margin-top: 10px;
+  }
 }
 
 .section-home {
