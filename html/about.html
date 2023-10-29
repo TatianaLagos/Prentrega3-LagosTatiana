@@ -10,6 +10,8 @@
     <script src="https://kit.fontawesome.com/c840fbbf89.js" crossorigin="anonymous"></script>
     <!--link css-->
     <link rel="stylesheet" href="../css/style.css">
+    <!--link aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
    
@@ -46,7 +48,6 @@
     </header>
 
     <main>
-      
       <section class="bg-black">
         <div class="container-about align-items-center">
             <div class="text flex-md-fill">
@@ -54,7 +55,7 @@
                 <p>We are a beauty salon committed to providing you with the best personal care services. Our dedication to excellence and customer satisfaction sets us apart in the industry.</p>
                 <p>Our talented team of stylists and beauty professionals are ready to take care of you and make you feel and look amazing. !Come and experience the difference with us!</p>
             </div>
-            <div class="item imagen">
+              <div class="item imagen" data-aos="flip-right" data-aos-duration="1000">
               <img class=" w-100" src="../assets/Freddy.png" alt="Imagen">
             </div>
         </div>
@@ -90,5 +91,10 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!--aos-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
